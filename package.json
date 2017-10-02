@@ -1,13 +1,16 @@
 {
   "name": "example-react-app",
   "version": "1.0.0",
-  "main": "index.js",
+  "main": "src/server/index.js",
   "license": "MIT",
   "scripts": {
+    "server": "NODE_ENV=development node src/server",
     "watch": "NODE_ENV=development webpack-dev-server --progress",
     "build": "NODE_ENV=production webpack --progress"
   },
   "dependencies": {
+    "ejs": "^2.5.7",
+    "express": "^4.16.1",
     "react": "^16.0.0",
     "react-dom": "^16.0.0"
   },

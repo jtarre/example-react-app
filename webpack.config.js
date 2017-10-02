@@ -17,7 +17,7 @@ const BROWSER_TARGETS = [
 
 const pack = {
   entry: {
-    index: "./src/index.js",
+    index: "./src/client/index.js",
     vendor: ["react", "react-dom"],
   },
   module: {
